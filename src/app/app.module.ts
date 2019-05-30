@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { TeamComponent } from './team/team.component';
 import { NewsComponent } from './news/news.component';
 import { ClubComponent } from './club/club.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ClubComponent } from './club/club.component';
     HomeComponent,
     TeamComponent,
     NewsComponent,
-    ClubComponent
+    ClubComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
