@@ -9,6 +9,8 @@ import { TeamComponent } from './team/team.component';
 import { NewsComponent } from './news/news.component';
 import { ClubComponent } from './club/club.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { GameCardComponent } from './game-card/game-card.component';
+import { RankingComponent } from './ranking/ranking.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     TeamComponent,
     NewsComponent,
     ClubComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    GameCardComponent,
+    RankingComponent
   ],
   imports: [
     BrowserModule,
