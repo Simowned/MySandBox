@@ -12,6 +12,14 @@
     border: 1rem solid $color-primary;
 }
 
+html {
+    background: url("/assets/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 @media (min-width: 576px) {
     .container {
         max-width: 540px;
