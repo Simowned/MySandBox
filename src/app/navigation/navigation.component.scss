@@ -1,8 +1,18 @@
 @import "../../styles/styles.scss";
 
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
 .logo img {
-	width: 100px;
-	height: 100px;
+	// width: 100px;
+	width: 10rem;
+	// height: 100px;
+	height: 10rem;;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -13,7 +23,9 @@
 	padding: 5px; 
 	list-style-type: none; 
 	text-align: center; 
-	background-color: $color-accent; 
+	background-color: $color-accent-transparant; 
+	border-radius: 0.25rem 0.25rem 0 0;
+	border-bottom: 0.1rem solid $color-primary-light;
 	} 
  
 #navbar ul li {  
@@ -24,10 +36,16 @@
 	text-decoration: none; 
 	padding: .2em 1em; 
 	color: $color-text-icons; 
-	background-color: $color-accent; 
+	border: 0.1rem solid whitesmoke;
+	border-radius: 0.4rem 0.4rem 0 0;
 	} 
  
 #navbar ul li a:hover { 
-	color: $color-primary-text; 
-	background-color: $color-text-icons; 
+	// color: $color-primary-text; 
+	background-color: $color-primary; 
 	} 
+
+.active {
+	// background-color: $color-primary-dark;
+	// border-bottom: none;
+}

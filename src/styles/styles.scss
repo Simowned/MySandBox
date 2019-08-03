@@ -6,10 +6,12 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    // background-color: white;
 }
 
 .bordered {
-    border: 1rem solid $color-primary;
+    border: 1rem solid $color-accent-transparant;
+    border-radius: 0 0 0.25rem 0.25rem;
 }
 
 html {
@@ -18,6 +20,12 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.main {
+    background-color: $color-primary;
+    color: $color-accent;
+    border-radius: 0.25rem;
 }
 
 @media (min-width: 576px) {
