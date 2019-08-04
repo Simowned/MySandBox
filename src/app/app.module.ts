@@ -11,6 +11,7 @@ import { ClubComponent } from './club/club.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { GameCardComponent } from './game-card/game-card.component';
 import { RankingComponent } from './ranking/ranking.component';
+import { LocationComponent } from './location/location.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { RankingComponent } from './ranking/ranking.component';
     ClubComponent,
     PageNotFoundComponent,
     GameCardComponent,
-    RankingComponent
+    RankingComponent,
+    LocationComponent
   ],
   imports: [
     BrowserModule,

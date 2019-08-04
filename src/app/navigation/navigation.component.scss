@@ -23,7 +23,8 @@
 	padding: 5px; 
 	list-style-type: none; 
 	text-align: center; 
-	background-color: $color-accent-transparant; 
+	background-color: $color-primary-transparant; 
+	// background-color: $color-accent; 
 	border-radius: 0.25rem 0.25rem 0 0;
 	border-bottom: 0.1rem solid $color-primary-light;
 	} 
@@ -36,16 +37,22 @@
 	text-decoration: none; 
 	padding: .2em 1em; 
 	color: $color-text-icons; 
-	border: 0.1rem solid whitesmoke;
+	// background-color: $color-primary-transparant; 
+
+	// border: 0.1rem solid whitesmoke;
 	border-radius: 0.4rem 0.4rem 0 0;
 	} 
  
 #navbar ul li a:hover { 
 	// color: $color-primary-text; 
-	background-color: $color-primary; 
+	background-color: $color-accent-transparant; 
 	} 
 
 .active {
 	// background-color: $color-primary-dark;
 	// border-bottom: none;
+	color: $color-text-icons; 
+
+	background-color: $color-accent; 
+
 }
